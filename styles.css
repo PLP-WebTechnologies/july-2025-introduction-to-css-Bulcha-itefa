@@ -1,0 +1,71 @@
+/* ====== General Reset ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes box model calculations easier */
+}
+
+/* ====== Body Styling ====== */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* ====== Header Styling ====== */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* ====== Navigation Bar ====== */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* ====== Card Styling ====== */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* ====== Box Model Demo ====== */
+.box-model-demo {
+    background-color: lightblue;
+    border: 5px solid blue;
+    padding: 20px;   /* Inside spacing */
+    margin: 15px 0;  /* Outside spacing */
+}
+
+/* ====== Footer ====== */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
